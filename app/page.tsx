@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import SubscriptionCard from '@/components/SubscriptionCard';
+import SubscriptionCard from '../components/SubscriptionCard';
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
